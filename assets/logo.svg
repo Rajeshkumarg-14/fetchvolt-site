@@ -1,8 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="PortFlock logo">
-  <rect width="256" height="256" rx="58" fill="#101a2a"/>
-  <rect x="7" y="7" width="242" height="242" rx="51" fill="none" stroke="#314361" stroke-width="2"/>
-  <path d="M49 62h52q19 0 33 14l48 48q13 13 13 32v41" fill="none" stroke="#93b8ff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M49 104h41q17 0 29 12l29 29q11 11 26 11h21" fill="none" stroke="#c4a9ff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M49 146h29q13 0 25 12l14 14q10 10 24 10h54" fill="none" stroke="#77dfbf" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M195 155v53m-18-18 18 18 18-18" fill="none" stroke="#f3f7ff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="FetchVolt logo"><rect x="4" y="4" width="248" height="248" rx="58" fill="#10120e"/><path d="M57 52h49M44 82h43" fill="none" stroke="#f1f4ea" stroke-width="12" stroke-linecap="round"/><path d="M141 34 68 132h49l-20 89 112-122h-60l24-65Z" fill="#d2f86a"/></svg>
