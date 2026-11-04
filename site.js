@@ -94,7 +94,7 @@ fetch('release.json', { cache: 'no-cache' }).then(response => {
 }).then(release => {
   if (!release.available || !/^\d+\.\d+\.\d+$/.test(release.version) ||
       !/^[a-f0-9]{64}$/i.test(release.sha256) ||
-      !/^https:\/\/github\.com\/Rajeshkumarg-14\/portflock-site\/releases\/download\/[A-Za-z0-9._-]+\/[A-Za-z0-9._-]+\.zip$/.test(release.url)) throw new Error('Release unavailable');
+      !/^https:\/\/github\.com\/Rajeshkumarg-14\/fetchvolt-site\/releases\/download\/[A-Za-z0-9._-]+\/[A-Za-z0-9._-]+\.zip$/.test(release.url)) throw new Error('Release unavailable');
   checksum = release.sha256.toUpperCase();
   document.getElementById('download-button').href = release.url;
   document.getElementById('release-description').textContent = 'Version ' + release.version + ' · Windows x64 · ' + (release.bytes / 1048576).toFixed(1) + ' MiB ZIP';
